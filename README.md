@@ -10,11 +10,12 @@ At-least one alpha-numeric character
 No whitespace character is allowed
 optional arguments: -h, --help show this help message and exit
 
-Required Named Argument.: -p PASSWORD, --p PASSWORD Please enter the Password
+Execution:
+(env) C:\Users\Admin\Desktop\assignments\python_asg\passwordvalidator>python main.py -p Wel@1234
+26-Jul-20 17:36:25 - Password entered by User: Wel@1234
+26-Jul-20 17:36:25 - Valid Password, All checks done!!
 
-Execution:-
-
-(env) C:\Users\Admin\Desktop\assignments>c:/Users/Admin/Desktop/assignments/env/Scripts/python.exe c:/Users/Admin/Desktop/assignments/python_asg/passwordvalidator/test_main.py
+(env) C:\Users\Admin\Desktop\assignments\python_asg\passwordvalidator>c:/Users/Admin/Desktop/assignments/env/Scripts/python.exe c:/Users/Admin/Desktop/assignments/python_asg/passwordvalidator/test_main.py
 ...ERROR:root:Password wel 12345 shouldn't contain any whitespace character
 .ERROR:root:Password abcd12 length is less than at-least 8 characters
 .ERROR:root:Password !@#$%^ should contain at-least one alphanumeric character
@@ -22,6 +23,6 @@ Execution:-
 .ERROR:root:Password wel@1234 should contain at-least one uppercase character
 ...
 ----------------------------------------------------------------------
-Ran 10 tests in 0.006s
+Ran 10 tests in 0.025s
 
 OK
